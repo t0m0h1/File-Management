@@ -2,9 +2,7 @@ import shutil, os
 
 
 def main():
-    # copy a file
-    shutil.copy('data.txt', 'data_copy.txt')
-
+    
     # copy a file and rename it
     # you will have to have data.txt in the same directory as this file
     shutil.copy('data.txt', 'data_copy2.txt')
